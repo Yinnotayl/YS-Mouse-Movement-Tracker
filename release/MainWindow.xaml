@@ -1,0 +1,28 @@
+﻿<Window x:Class="Mouse_Movement_Recorder.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mouse Movement Recorder" Height="112" Width="310">
+    <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal" >
+            <Button x:Name="RecordButton"
+                    Content="Record"
+                    Width="80"
+                    Height="30"
+                    Margin="5"
+                    Click="RecordButton_Click"/>
+            <Button x:Name="StopButton"
+                    Content="Stop"
+                    Width="80"
+                    Height="30"
+                    Margin="5"
+                    Click="StopButton_Click"
+                    IsEnabled="False"/>
+            <Button x:Name="PlaybackButton"
+                    Content="Playback"
+                    Width="80"
+                    Height="30"
+                    Margin="5"
+                    Click="PlaybackButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
