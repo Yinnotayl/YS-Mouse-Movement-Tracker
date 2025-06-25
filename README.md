@@ -64,12 +64,15 @@ time\_seconds\:X:Y\:event\:data
 
 1. Download the `.exe` file  
 2. Run it  
-3. Use the buttons the same way as above
+3. Use the buttons:
+   - `Record` – Start recording mouse events  
+   - `Stop` – Stop and save the recording  
+   - `Playback` – Replay everything in order  
 
 📝 The `mouse_trace.txt` file will be generated in the same directory.
 
 ### 📝 Things to note
-1. The `.exe` would read any file called `mouse_trace.txt` in the same directory when user presses the `Playback` button. You can put the example files there to see how they work
+1. The `.exe` would read any file called `mouse_trace.txt` in the same directory when user presses the `Playback` button. You can put the example files there and rename it to `mouse_trace.txt` to see how they work
 2. The `.exe` file will write/overwrite any file called `mouse_trace.txt` so be careful with the file names
 3. The `.exe` has no keyboard shortcuts, so avoid recording/writing a `mouse_trace.txt` file that overrides all hardware mouse inputs. Developer will **not be responsible** for any damage done caused by this tool.
 
